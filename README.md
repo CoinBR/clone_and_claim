@@ -18,7 +18,10 @@ Instead of starting from scratch, candidates can clone the template, repoint it 
 4. **Create `README.md.candidate`**  
    - Copy `README.md` to `README.md.candidate` and remove the top tips (everything that has the ">" prefix).
 
-5. **Add `run.sh`**  
+5. **Add `setup_repo.sh`**
+   - Just copy [this file](https://github.com/CoinBR/code_challenge_angular/blob/master/setup_repo.sh) to the the project root.
+
+6. **Add `run.sh`**  
    - Create a `run.sh` script in the root folder.  
    - Make it executable:  
      ```bash
