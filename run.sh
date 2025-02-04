@@ -25,9 +25,13 @@ original_repo_name="$current_folder"
 
 
 # Remove the interviewer repository structure
-rm -rf .git
-rm README.md
-mv README.md.candidate README.md
+[ -f README.md ] && [ -f README.md.candidate ] \
+  && rm README.md \
+  && mv README.md.candidate README.md
+
+[ -d .git ] \
+  && rm -rf .git
+
 
 # Set up the candidate repository
 git init
