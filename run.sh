@@ -39,6 +39,3 @@ git add .
 git commit -m "project setup"
 git remote add origin "$candidate_repo"
 
-# Start the project
-[ -f "run.sh" ] && ./run.sh
-
