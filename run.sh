@@ -38,7 +38,6 @@ git init
 git add .
 git commit -m "project setup"
 git remote add origin "$candidate_repo"
-git push -f -u origin master
 
 # Start the project
 [ -f "run.sh" ] && ./run.sh
